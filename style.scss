@@ -1,4 +1,20 @@
-$defbacroundcolor: green
+$bockfon: rgb(105, 52, 166);
+$colorfon: #fff;
 
-section
-    bacround-color: green
+
+body {
+    width: 700px;
+    background-color:rgb(59, 19, 134);
+}
+
+
+.section
+    {
+        font-size: 22px;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: $colorfon;
+        color: $bockfon;
+    }
+.section:root {
+    --main-bg-color: blue;
+}

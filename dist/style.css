@@ -5,15 +5,11 @@ body {
 
 .section {
   font-size: 22px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   background-color: #fff;
   color: #6934a6;
 }
 
 .section:root {
   --main-bg-color: blue;
-}
-
-.section {
-  bacround-color: var(--main-bg-color);
 }
